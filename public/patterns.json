@@ -1,0 +1,53 @@
+{
+  "name": "khatam-8",
+  "description": "Tile unité 300x300 — étoile khatam à 8 branches au centre, 4 rayons cardinaux, 4 quadrilatères d'angle. Les fragments pavent entièrement la tuile sans recouvrement.",
+  "tileSize": 300,
+  "viewBox": "0 0 300 300",
+  "fragments": [
+    {
+      "id": "star-center",
+      "role": "star",
+      "d": "M 205 150 L 173.1 159.6 L 188.9 188.9 L 159.6 173.1 L 150 205 L 140.4 173.1 L 111.1 188.9 L 126.9 159.6 L 95 150 L 126.9 140.4 L 111.1 111.1 L 140.4 126.9 L 150 95 L 159.6 126.9 L 188.9 111.1 L 173.1 140.4 Z"
+    },
+    {
+      "id": "ray-n",
+      "role": "kite",
+      "d": "M 150 95 L 175 50 L 150 0 L 125 50 Z"
+    },
+    {
+      "id": "ray-e",
+      "role": "kite",
+      "d": "M 205 150 L 250 125 L 300 150 L 250 175 Z"
+    },
+    {
+      "id": "ray-s",
+      "role": "kite",
+      "d": "M 150 205 L 125 250 L 150 300 L 175 250 Z"
+    },
+    {
+      "id": "ray-w",
+      "role": "kite",
+      "d": "M 95 150 L 50 175 L 0 150 L 50 125 Z"
+    },
+    {
+      "id": "corner-ne",
+      "role": "corner",
+      "d": "M 300 0 L 150 0 L 175 50 L 150 95 L 159.6 126.9 L 188.9 111.1 L 173.1 140.4 L 205 150 L 250 125 L 300 150 Z"
+    },
+    {
+      "id": "corner-se",
+      "role": "corner",
+      "d": "M 300 300 L 300 150 L 250 175 L 205 150 L 173.1 159.6 L 188.9 188.9 L 159.6 173.1 L 150 205 L 175 250 L 150 300 Z"
+    },
+    {
+      "id": "corner-sw",
+      "role": "corner",
+      "d": "M 0 300 L 150 300 L 125 250 L 150 205 L 140.4 173.1 L 111.1 188.9 L 126.9 159.6 L 95 150 L 50 175 L 0 150 Z"
+    },
+    {
+      "id": "corner-nw",
+      "role": "corner",
+      "d": "M 0 0 L 0 150 L 50 125 L 95 150 L 126.9 140.4 L 111.1 111.1 L 140.4 126.9 L 150 95 L 125 50 L 150 0 Z"
+    }
+  ]
+}

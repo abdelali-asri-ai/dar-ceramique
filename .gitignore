@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# Build
+tsconfig.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Images sources (grandes dossiers locaux)
+ImagesZelijCatalogue/
+ImagesZelij/
+
+# Fichiers temporaires
+infra/
+odoo/
+
+# PDFs et fichiers de présentation générés
+*.pdf
+*.odt
+*.html
+"Capture d'écran*"
